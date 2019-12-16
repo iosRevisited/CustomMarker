@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		244CE4C523A7F314000950ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244CE4C423A7F314000950ED /* AppDelegate.swift */; };
 		244CE4C723A7F314000950ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244CE4C623A7F314000950ED /* SceneDelegate.swift */; };
-		244CE4C923A7F314000950ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244CE4C823A7F314000950ED /* ViewController.swift */; };
 		244CE4CC23A7F314000950ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244CE4CA23A7F314000950ED /* Main.storyboard */; };
-		244CE4CE23A7F319000950ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 244CE4CD23A7F319000950ED /* Assets.xcassets */; };
 		244CE4D123A7F319000950ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244CE4CF23A7F319000950ED /* LaunchScreen.storyboard */; };
+		244CE4DC23A7F35D000950ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244CE4D823A7F35D000950ED /* ViewController.swift */; };
+		244CE4DD23A7F35D000950ED /* CustomMarkerInfoWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244CE4D923A7F35D000950ED /* CustomMarkerInfoWindow.swift */; };
+		244CE4DE23A7F35D000950ED /* CustomMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244CE4DA23A7F35D000950ED /* CustomMarkerView.swift */; };
+		244CE4DF23A7F35D000950ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 244CE4DB23A7F35D000950ED /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		244CE4C123A7F314000950ED /* CustomMarker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomMarker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		244CE4C423A7F314000950ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		244CE4C623A7F314000950ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		244CE4C823A7F314000950ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		244CE4CB23A7F314000950ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		244CE4CD23A7F319000950ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		244CE4D023A7F319000950ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		244CE4D223A7F319000950ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		244CE4D823A7F35D000950ED /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		244CE4D923A7F35D000950ED /* CustomMarkerInfoWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMarkerInfoWindow.swift; sourceTree = "<group>"; };
+		244CE4DA23A7F35D000950ED /* CustomMarkerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMarkerView.swift; sourceTree = "<group>"; };
+		244CE4DB23A7F35D000950ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +62,11 @@
 			children = (
 				244CE4C423A7F314000950ED /* AppDelegate.swift */,
 				244CE4C623A7F314000950ED /* SceneDelegate.swift */,
-				244CE4C823A7F314000950ED /* ViewController.swift */,
+				244CE4D923A7F35D000950ED /* CustomMarkerInfoWindow.swift */,
+				244CE4DA23A7F35D000950ED /* CustomMarkerView.swift */,
+				244CE4D823A7F35D000950ED /* ViewController.swift */,
 				244CE4CA23A7F314000950ED /* Main.storyboard */,
-				244CE4CD23A7F319000950ED /* Assets.xcassets */,
+				244CE4DB23A7F35D000950ED /* Assets.xcassets */,
 				244CE4CF23A7F319000950ED /* LaunchScreen.storyboard */,
 				244CE4D223A7F319000950ED /* Info.plist */,
 			);
@@ -126,7 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				244CE4D123A7F319000950ED /* LaunchScreen.storyboard in Resources */,
-				244CE4CE23A7F319000950ED /* Assets.xcassets in Resources */,
+				244CE4DF23A7F35D000950ED /* Assets.xcassets in Resources */,
 				244CE4CC23A7F314000950ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				244CE4C923A7F314000950ED /* ViewController.swift in Sources */,
+				244CE4DE23A7F35D000950ED /* CustomMarkerView.swift in Sources */,
+				244CE4DD23A7F35D000950ED /* CustomMarkerInfoWindow.swift in Sources */,
+				244CE4DC23A7F35D000950ED /* ViewController.swift in Sources */,
 				244CE4C523A7F314000950ED /* AppDelegate.swift in Sources */,
 				244CE4C723A7F314000950ED /* SceneDelegate.swift in Sources */,
 			);
